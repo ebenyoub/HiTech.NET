@@ -29,12 +29,18 @@ header {
     background: url(../images/header.jpg) center;
     color: #eee;
     margin-top: 1rem;
+    text-decoration: none;
+}
+
+.logo > a {
+    text-decoration: none;
+    color: #eee
 }
 
 .logo img {
     display: inline-block;
     width: 7rem;
-    padding: 2rem;
+    padding: 4rem 0;
 }
 
 .container {
@@ -60,26 +66,50 @@ header {
 .account-cart div {
     padding: 2rem;
 }
+/* ************************************* */
+/* **************  MENU **************** */
+/* ************************************* */
 
-.nav {
+ul {
     list-style: none;
+}
+
+nav > ul {
+    position: relative;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #1e88c4;
     padding: 1rem;
 }
 
-.nav a{
-    display: inline-block;
+nav a:hover {
+    background-color: #1b81c3;
+    color:#fff;
+}
+
+.menu {
+    background-color: #fff;
+    position: absolute;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    left: 0;
+    right: 0;
+    display: none;
     text-decoration: none;
-    padding: 1rem;
+    padding: 1rem 0;
     color: #0c6588;
 }
 
-.nav a:hover {
+nav > ul > li:hover .menu {
+    display: block;
     color: #000;
 }
 
-.nav a span {
-    margin-right: 1rem;
-}
+/* ************************************* */
+/* ************** ACCESS *************** */
+/* ************************************* */
 
 .acces {
     display: flex;
@@ -106,3 +136,4 @@ header {
     border-top: 1px dotted #000;
     
 }
+
