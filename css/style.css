@@ -20,6 +20,10 @@ h2,h3,h4 {
     font-family: 'Raleway';
 }
 
+.opt {
+    padding: 1rem
+}
+
 header {
     background-color: #e2f7ff;
     margin-bottom: 6rem;
@@ -38,9 +42,8 @@ header {
 }
 
 .logo img {
-    display: inline-block;
     width: 7rem;
-    padding: 4rem 0;
+    padding: 3rem 0 1rem;
 }
 
 .container {
@@ -57,6 +60,7 @@ header {
 .account-cart {
     display: flex;
     justify-content: center;
+    padding: 2rem;
 }
 
 .account-cart div:hover {
@@ -137,3 +141,42 @@ nav > ul > li:hover .menu {
     
 }
 
+/* ******************************************** */
+/* ************** MEDIA QUERIES *************** */
+/* ******************************************** */
+
+/* version tablette */
+
+@media screen and (min-width: 480px) {
+    nav > ul {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    nav > ul > li {
+        width: 50%;
+    }
+
+    nav > ul > li:hover .menu {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .ss-rub {
+        width: 50%;
+    }
+}
+
+/* version destop */
+
+@media screen and (min-width: 980px) {
+    nav > ul > li {
+        width: 25%;
+    }
+
+    .ss-rub {
+        width: 25%;
+    }
+    
+}
