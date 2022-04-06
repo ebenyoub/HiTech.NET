@@ -1,0 +1,108 @@
+
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    color: #555;
+    font-family: 'open sans';
+}
+
+h2,h3,h4 {
+    color: #333;
+    font-family: 'Raleway';
+}
+
+header {
+    background-color: #e2f7ff;
+    margin-bottom: 6rem;
+}
+
+.logo {
+    background: url(../images/header.jpg) center;
+    color: #eee;
+    margin-top: 1rem;
+}
+
+.logo img {
+    display: inline-block;
+    width: 7rem;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 140rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.account-cart {
+    display: flex;
+    justify-content: center;
+}
+
+.account-cart div:hover {
+    color: #000;
+}
+
+.account-cart div {
+    padding: 2rem;
+}
+
+.nav {
+    list-style: none;
+    padding: 1rem;
+}
+
+.nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 1rem;
+    color: #0c6588;
+}
+
+.nav a:hover {
+    color: #000;
+}
+
+.nav a span {
+    margin-right: 1rem;
+}
+
+.acces {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0;
+}
+
+.acces a {
+    color: #0c6588;
+}
+
+.title-style {
+    display: flex;
+    flex-direction: row;
+}
+
+.title-style:first-child {
+    
+    width: 50%;
+}
+
+.title-style:last-child {
+    float: right;
+    border-top: 1px dotted #000;
+    
+}
