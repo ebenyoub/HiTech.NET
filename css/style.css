@@ -21,7 +21,8 @@ h2,h3,h4 {
 }
 
 .opt {
-    padding: 1rem
+    color: #333;
+    font-size: 1rem;
 }
 
 header {
@@ -32,7 +33,6 @@ header {
 .logo {
     background: url(../images/header.jpg) center;
     color: #eee;
-    margin-top: 1rem;
     text-decoration: none;
 }
 
@@ -166,6 +166,11 @@ nav > ul > li:hover .menu {
     .ss-rub {
         width: 50%;
     }
+    
+    .opt {
+        display: flex;
+        justify-content: space-around;
+    }
 }
 
 /* version destop */
@@ -178,5 +183,6 @@ nav > ul > li:hover .menu {
     .ss-rub {
         width: 25%;
     }
+
     
 }
